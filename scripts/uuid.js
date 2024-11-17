@@ -1,4 +1,4 @@
-const crypto = require('crypto');
+const { createHash } = require('crypto');
 
 /**
  * Generate a fixed-size hash from any input, and then formatted into a UUID structure
